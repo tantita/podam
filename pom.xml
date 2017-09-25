@@ -277,11 +277,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<outputDirectory>${project.build.directory}/site/downloads</outputDirectory>
-					<descriptors>
-						<descriptor>src/main/assembly/project.xml</descriptor>
-						<descriptor>src/main/assembly/bin.xml</descriptor>
-					</descriptors>
+				   <skip>true</skip>
 				</configuration>
 			</plugin>					
 			<plugin>
